@@ -1,1 +1,2 @@
-# SMS-Spam-Classiferdgdf
+## Problem Statement: 
+In today's technologically advanced world, there is a high likelihood of fraudulent transactions and the dissemination of fraudulent information. One such instance is SMS spam detection. The objective is to develop a machine learning model capable of predicting whether an SMS is spam or not-spam (ham), thereby enhancing the user experience and mitigating the risk of falling victim to spam-related scams.
