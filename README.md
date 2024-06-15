@@ -14,17 +14,13 @@ In today's technologically advanced world, there is a high likelihood of fraudul
 ![image](https://github.com/ANDUGULA-SAI-KIRAN/SMS-Spam-Classifer/assets/143734802/826d7cfd-7d1b-4775-9c17-616558fc0b4b)
 
 Insights found from performance table-
-
 first logistic regression alogorithm has highest accuracy 0.978 and precision 1 with Count vectorization method
-
 second multinomial naive bayes algorithm has accuracy 0.973 and precision 1 with TF-IDF vectorization method
-
 Evaluation metrics as accuracy and precision
 
-- Accuracy - it measures overall correctness of the model, ratio of correctly classified instances to total number of instances in dataset
+**Accuracy - ** it measures overall correctness of the model, ratio of correctly classified instances to total number of instances in dataset
+**Precision -** It measures propotion of coorectly identified spam messages among all messages predicted, ratio of correctly classified spam message to sum of correctly classified spam message and incorrectly classified spam message
 
-- Precision - It measures propotion of coorectly identified spam messages among all messages predicted, ratio of correctly classified spam message to sum of correctly classified spam message and incorrectly classified spam message
-
-note- Our model should correctly identify spam messages hence, precision should be 1
+**Note- Our model should correctly identify spam messages hence, precision should be 1**
 
 
