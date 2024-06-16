@@ -10,7 +10,8 @@ text: The actual text content of the SMS message.
 ## Problem Statement: 
 In today's technologically advanced world, there is a high likelihood of fraudulent transactions and the dissemination of fraudulent information. One such instance is SMS spam detection. The objective is to develop a machine learning model capable of predicting whether an SMS is spam or not-spam (ham), thereby enhancing the user experience and mitigating the risk of falling victim to spam-related scams.
 
-####**Interpreting model preformance by Term frequency-inverse document frquency(TF-IDF) & vectorization method(CV)**
+#### **Interpreting model preformance by Term frequency-inverse document frquency(TF-IDF) & vectorization method(CV)**
+
 ![image](https://github.com/ANDUGULA-SAI-KIRAN/SMS-Spam-Classifer/assets/143734802/826d7cfd-7d1b-4775-9c17-616558fc0b4b)
 
 Insights found from performance table-
@@ -20,11 +21,13 @@ Evaluation metrics as accuracy and precision
 
 **Accuracy - ** it measures overall correctness of the model, ratio of correctly classified instances to total number of instances in dataset
 **Precision -** It measures propotion of coorectly identified spam messages among all messages predicted, ratio of correctly classified spam message to sum of correctly classified spam message and incorrectly classified spam message
+
 **Note- Model should correctly identify spam messages, It's essential that precision is 1**
 
 Since the logistic regression model is performing well with an accuracy of 0.978 and a precision of 1, hyperparameter tuning is not necessary. Given the data is highly imbalanced data, we'll use stratified K-fold cross-validation to evaluate the model's performance when combined with count vectorization.
 
-####**Stratified KFold With Logistic Regression
+####**Stratified KFold With Logistic Regression**
+
 ![image](https://github.com/ANDUGULA-SAI-KIRAN/SMS-Spam-Classifer/assets/143734802/b0fc3cdb-83f8-41c6-a347-fea29482814f)
 
 insights:
