@@ -19,14 +19,15 @@ Insights found from performance table-
 - Multinomial naive bayes algorithm has accuracy 0.973 and precision 1 with TF-IDF vectorization method
 Evaluation metrics as accuracy and precision
 
-**Accuracy - ** it measures overall correctness of the model, ratio of correctly classified instances to total number of instances in dataset
+**Accuracy -** it measures overall correctness of the model, ratio of correctly classified instances to total number of instances in dataset
+
 **Precision -** It measures propotion of coorectly identified spam messages among all messages predicted, ratio of correctly classified spam message to sum of correctly classified spam message and incorrectly classified spam message
 
 **Note- Model should correctly identify spam messages, It's essential that precision is 1**
 
 Since the logistic regression model is performing well with an accuracy of 0.978 and a precision of 1, hyperparameter tuning is not necessary. Given the data is highly imbalanced data, we'll use stratified K-fold cross-validation to evaluate the model's performance when combined with count vectorization.
 
-####**Stratified KFold With Logistic Regression**
+#### **Stratified KFold With Logistic Regression**
 
 ![image](https://github.com/ANDUGULA-SAI-KIRAN/SMS-Spam-Classifer/assets/143734802/b0fc3cdb-83f8-41c6-a347-fea29482814f)
 
